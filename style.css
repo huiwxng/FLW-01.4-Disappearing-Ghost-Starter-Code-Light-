@@ -1,5 +1,9 @@
+html {
+  background: yellow;
+}
+
 img {
-    width: 300px;
+  width: 300px;
 }
 
 h1 {
@@ -8,7 +12,6 @@ h1 {
 
 .main {
     text-align: center;
-
 }
 
 .button {
