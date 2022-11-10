@@ -26,7 +26,13 @@ showBtn.onclick = (function (){
 
 //create an onclick event for the Update Img button
 updateBtn.onclick = (function (){
-    ghost.setAttribute("src", "/images/update_ghost.gif");
+    console.log(ghost.getAttribute("src"));
+  if (ghost.getAttribute("src") == "images/pngfind.com-snapchat-logo-png-transparent-522479.png") {
+    ghost.setAttribute("src", "images/update_ghost.gif");
+  }
+  else {
+    ghost.setAttribute("src", "images/pngfind.com-snapchat-logo-png-transparent-522479.png");
+  }
 });
 
 //create an onclick event for the Send Message button
